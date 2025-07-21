@@ -1,8 +1,6 @@
 # RAITrigger
 
-The RPC-function `RAiLaunchAdminProcess` from the `appinfo.dll` library was in the past already used for [UAC bypass](https://googleprojectzero.blogspot.com/2019/12/) purposes.
-
-It turns out, that this function can be called from any low privileged user (not to spawn a process) but to trigger SYSTEM authentication to an arbitrary location. This is because `CreateFileW` is called as SYSTEM to the first input parameter's location:
+The RPC-function `RAiForceElevationPromptForCOM` from the `appinfo.dll` library allows SYSTEM coercion. This only works on **domain joined systems**. It turns out, that this function can be called from any low privileged user (not to spawn a process) but to trigger SYSTEM authentication to an arbitrary location. This is because `CreateFileW` is called as SYSTEM to the first input parameter's location:
 
 <br>
 <div align="center">
