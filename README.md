@@ -14,7 +14,7 @@ As the low privileged user is still impersonated, this cannot be used as Potato 
 
 <br>
 <div align="center">
-    <img src="https://github.com/rtecCyberSec/RAITrigger/blob/Impersonation.png?raw=true" width="500">
+    <img src="https://github.com/rtecCyberSec/RAITrigger/blob/main/Impersonation.png?raw=true" width="500">
 </div>
 <br>
 
@@ -36,6 +36,11 @@ Calling this function from remote (even with local administrator) leads to `rpc_
 
 <br>
 <div align="center">
-    <img src="https://github.com/rtecCyberSec/RAITrigger/blob/Denied.png?raw=true" width="500">
+    <img src="https://github.com/rtecCyberSec/RAITrigger/blob/main/Denied.png?raw=true" width="500">
 </div>
 <br>
+
+
+## Room for improvement
+
+- The NtApiDotNet library is huge. Using MIDL bytes can drastically reduce the assembly size similar to [SharpSystemTriggers](https://github.com/cube0x0/SharpSystemTriggers/)
