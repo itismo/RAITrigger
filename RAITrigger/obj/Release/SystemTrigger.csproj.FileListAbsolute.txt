@@ -1,0 +1,11 @@
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\bin\Release\SystemTrigger.exe.config
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\bin\Release\SystemTrigger.exe
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\bin\Release\SystemTrigger.pdb
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\bin\Release\NtApiDotNet.dll
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\bin\Release\NtApiDotNet.xml
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\obj\Release\SystemTrigger.csproj.AssemblyReference.cache
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\obj\Release\SystemTrigger.csproj.SuggestedBindingRedirects.cache
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\obj\Release\SystemTrigger.csproj.CoreCompileInputs.cache
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\obj\Release\SystemTrigger.csproj.CopyComplete
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\obj\Release\SystemTrigger.exe
+C:\Users\S3cur3Th1sSh1t\source\repos\SystemTrigger\SystemTrigger\obj\Release\SystemTrigger.pdb
