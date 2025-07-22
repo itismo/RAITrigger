@@ -42,3 +42,7 @@ Calling this function from remote (even with local administrator) leads to `rpc_
 ## Room for improvement
 
 - The NtApiDotNet library is huge. Using MIDL bytes can drastically reduce the assembly size similar to [SharpSystemTriggers](https://github.com/cube0x0/SharpSystemTriggers/)
+
+## Credits
+
+- https://github.com/warpnet/MS-RPC-Fuzzer
